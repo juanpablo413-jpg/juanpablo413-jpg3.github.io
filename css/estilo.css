@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+    background-size: cover;
+    padding-top: 47px;
+}
+#menuPrincipal{
+    background-color: rgba(19, 100, 19, 0.7);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+.opcionMenuPrincipal{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+.opcionMenuPrincipal:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.contenido{
+    width: 100%;
+    min-height: 1000px;
+    overflow: hidden;
+    min-width: 320px;
+}
+.quienessomos{
+    position: relative;
+    background-color: #AFECB8;
+    font-size: 1.5rem;
+}
+.contenedor{
+    width: 600px;
+    border:solid 1px #00f;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(30, 58, 70, 0.9);
+    height: 100px;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.res{
+    width: 300px;
+    height: 200px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+p{
+    margin: 10px 0px;
+}
+input, select{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+}
+input[type="button"]{
+    background-color: rgb(19, 100, 19);
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: rgba(19, 100, 19, 0.7);
+}
+
+#resultado{
+    width: 600px;
+    border: solid 1px rgb(19, 100, 19);
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.corto{
+    min-height: 500px;
+}
+
+.enlace{
+    display: block;
+    color: rgb(19, 100, 19);
+    font-size: 1.3rem;
+    margin: 8px;
+}
+
+footer img{
+    width: 76px;
+    height: 76px;
+}
+
+#maqueta{
+    width: 470px;
+    margin: 10px auto;
+    position: relative;
+}
+#arriba{
+    height: 130px;
+    background-color: #aed9d5;
+}
+#franja{
+    height: 40px;
+    background-color: #fff;
+}
+#botonMenu{
+    background-color: #f00;
+    color: #ff0;
+    font-size: 1.8rem;
+    width: 40px;
+    height: 50px;
+    margin: -10px 0px 0px 0px;
+    padding: 0px;
+    border-radius: 4px;
+}
+#botonMenu:hover{
+    background-color: #c00;
+}
+#formulario{
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    width: 290px;
+    padding: 12px;
+    background-color: #29d0ec;
+    border-top: solid 8px #40f0ff;
+    text-align: center;
+}
+#formulario label{
+    font-size: 1rem;
+}
+#formulario input{
+    margin: 4px;
+}
+#formulario input[type="text"], #formulario input[type="password"]{
+    width: 100%;
+}
+#formulario input[type="button"]{
+    background-color: #efefef;
+    color: #000;
+    border: solid 1px #767676;
+    padding: 2px 8px;
+}
+#abajo{
+    height: 300px;
+    background-color: #8080c0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos</title>
+    <script src="../js/funciones.js"></script>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+</head>
+<body onload="mostrarArreglo()">
+    <nav id="menuPrincipal">
+        <h1>
+            <a class="opcionMenuPrincipal" href="../index.html">Inicio</a>
+        </h1>
+    </nav>
+    <section class="contenido quienessomos">
+
+        <article id="Arreglo" class="contenedor">
+            <h3>Arreglo de 10 paises</h3>
+            <p id="arreglo"></p>
+            <input type="text" id="pais" placeholder="Introduce un país">
+            <br>
+            <input type="text" id="posicion" placeholder="Posición">
+            <input type="text" id="cantidad" placeholder="Cantidad">
+            <br>
+            <input type="button" value="Pop" onclick="usarPop()">
+            <input type="button" value="Shift" onclick="usarShift()">
+            <input type="button" value="Push" onclick="usarPush()">
+            <input type="button" value="Unshift" onclick="usarUnshift()">
+            <input type="button" value="Splice" onclick="usarSplice()">
+            <input type="button" value="Delete" onclick="usarDelete()">
+            <input type="button" value="Reverse" onclick="usarReverse()">
+            <input type="button" value="Sort" onclick="usarSort()">
+            <input type="button" value="Concat" onclick="usarConcat()">
+            <input type="button" value="Join" onclick="usarJoin()">
+            <input type="button" value="Length" onclick="usarLength()">
+        </article>
+
+        <p id="resultado">Aqui estan los Resultados</p>
+    </section>
+
+</body>
+</html>
